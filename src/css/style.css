@@ -1,0 +1,76 @@
+html {
+	--background-color: rgb(34, 36, 54);
+	--text-color: rgb(193, 193, 193);
+	--accent-color: rgb(118, 170, 243);
+    --accent-text-color: rgb(31, 32, 34);
+}
+body {
+	background: var(--background-color);
+	color: var(--text-color);
+}
+
+header {
+	border-bottom: 1px solid var(--accent-color);
+    text-align: center;
+}
+
+article {
+	margin: 10px auto;
+    width: 90%;
+    text-align: center;
+}
+
+article button {
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px;
+    background-color: var(--background-color);
+}
+
+article button img {
+    max-width: 250px;
+    height: 250px;
+}
+
+article button audio {
+    visibility: hidden;
+    display: block;
+    height: 0px;
+}
+
+article button h2 {
+    color: var(--accent-color)
+}
+
+#viewSource {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+a#viewSourceHyperlink {
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+span#Gemscounter {
+    background: rgb(7, 59, 83);
+    left: 5%; position: absolute;
+}
+span#buttonholder {
+    background: rgb(192, 105, 134); 
+    right: 5%; position: absolute;
+}
+span#buttonholder div {
+    min-height: 70px;
+    margin: 10px;
+    line-height: 70px;
+    border: 1px solid cadetblue;
+}
+progress {
+    width: 300px;
+}
+
