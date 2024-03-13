@@ -61,10 +61,10 @@ span#Gemscounter {
     left: 5%; position: absolute;
 }
 span#buttonholder {
-    background: rgb(192, 105, 134); 
     right: 5%; position: absolute;
 }
 span#buttonholder div {
+    background: rgb(192, 105, 134); 
     min-height: 70px;
     margin: 10px;
     line-height: 70px;
