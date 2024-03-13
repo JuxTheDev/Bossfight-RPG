@@ -64,13 +64,55 @@ span#buttonholder {
     right: 5%; position: absolute;
 }
 span#buttonholder div {
-    background: rgb(192, 105, 134); 
-    min-height: 70px;
+    background: rgb(14, 114, 97); 
+    min-height: 70px; 
+    min-width: 70px;
     margin: 10px;
     line-height: 70px;
-    border: 1px solid cadetblue;
+    border-radius: 16px;
+    border: 4px solid rgb(0, 0, 0);
 }
 progress {
     width: 300px;
 }
 
+span#fightbuttonholder {
+    left: 5%; position: absolute;
+}
+span#fightbuttonholder div {
+    background: rgb(170, 12, 12); 
+    min-height: 70px; 
+    min-width: 70px;
+    margin: 10px;
+    padding: 7px;
+    line-height: 70px;
+    border-radius: 92px;
+    border: 4px solid rgb(0, 0, 0);
+}
+img#sillyboy {
+height: 250px;
+width: 250px;
+}
+img#Minion {
+    height: 330px;
+    width: 270px;
+    }
+    span#levelupHolder {
+    display: block;
+    text-align: center;
+    }
+
+    span#levelupHolder div {
+        background: rgb(28, 3, 141); 
+        height: 70px; 
+        width: 110px;
+        margin: 13px auto;
+        padding: 7px;
+        line-height: 70px;
+        border-radius: 92px;
+        border: 4px solid rgb(0, 0, 0);
+    }
+    span#levelupHolder div#UpgradeButton {
+    border-radius: 8px;
+    width: 190px;
+}
